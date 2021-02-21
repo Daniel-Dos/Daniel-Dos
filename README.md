@@ -1,11 +1,10 @@
-<h1 align="center">Hi 👋, I'm Daniel</h1>
 <h3 align="center">Daniel is a Jakarta EE Developer who loves sharing, learning new Java / Jakarta EE subjects and technologies with the community. Member of the JCP, contributor of the JSR 354 (Money and Currency API) , JSR-371 (MVC 1.0), JSR-382 (Configuration API 1.0) and Expert Group JSR-385 (Units of Measurement 2.0) specifications, he is currently a committer for the Apache TomEE project.</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=daniel-dos" alt="daniel-dos" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/danieldiasjava" target="blank"><img src="https://img.shields.io/twitter/follow/danieldiasjava?logo=twitter&style=for-the-badge" alt="danieldiasjava" /></a> </p>
 
-- 🔭 I’m currently working on [Apache Tomee](https://github.com/apache/tomee)
+- 🔭 I’m currently working on Project [Apache Tomee](https://github.com/apache/tomee)
 
 - 🌱 I’m currently learning **Jakarta EE, MIcroprofile, CDI**
 

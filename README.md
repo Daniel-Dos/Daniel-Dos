@@ -10,7 +10,7 @@
 
 - 📝 I regularly write articles on [https://medium.com/danieldiasjava](https://medium.com/danieldiasjava)
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/danieldiasjava/](https://www.linkedin.com/in/danieldiasjava/)
+- 📄 Know about my experiences [https://www.linkedin.com/in/danieldiasds/](https://www.linkedin.com/in/danieldiasds/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

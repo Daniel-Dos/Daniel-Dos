@@ -13,14 +13,33 @@
 
 ### 👨‍💻 About Me
 
-I'm a passionate Jakarta EE Developer committed to continuous learning and community engagement. As a member of the Java Community Process (JCP), I've contributed to several specifications:
+Backend Software Engineer with strong experience in designing and evolving distributed systems using Java (Spring Boot, Jakarta EE) and Golang. At Itaú Unibanco, I work on large-scale modernization, transforming legacy monoliths into scalable, maintainable microservices using DDD, Clean Architecture, and SOLID principles.
 
-- 🌐 JSR 371: MVC 1.0
-- 💰 JSR 354: Money and Currency API
-- ⚙️ JSR 382: Configuration API 1.0
-- 📏 JSR 385: Units of Measurement 2.0 (Expert Group)
+I combine hands-on development with architectural guidance — covering API design, asynchronous messaging (Kafka, Camel), observability (Datadog), CI/CD pipelines, AWS infrastructure, and performance tuning.
 
-Currently, I'm a committer for the [Apache TomEE](https://tomee.apache.org/) project, where I contribute to enhancing Java EE technologies.
+As a committer to  [Apache TomEE](https://tomee.apache.org/) and contributor to Jakarta EE and MicroProfile, I help improve enterprise Java runtimes and developer experience through open source contributions and community engagement.
+
+Passionate about clean code, simplicity, and building software that evolves with the business.
+
+Tech Stack: 
+ - Java 8–21
+ - Spring Boot
+ - Jakarta EE
+ - Golang
+ - Apache TomEE
+ - MicroProfile
+ - REST APIs
+ - JPA/Hibernate
+ - Kafka
+ - Apache Camel
+ - Docker
+ - Git
+ - Jenkins
+ - AWS (EC2, ECS, S3, RDS)
+ - Terraform
+ - CI/CD
+ - Observability (Datadog)
+ - Test Automation (JUnit, Mockito, Wiremock)
 
 ---
 

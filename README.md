@@ -1,28 +1,82 @@
-<h3 align="center">Daniel is a Jakarta EE Developer who loves sharing, learning new Java / Jakarta EE subjects and technologies with the community. Member of the JCP, contributor of the JSR 354 (Money and Currency API) , JSR-371 (MVC 1.0), JSR-382 (Configuration API 1.0) and Expert Group JSR-385 (Units of Measurement 2.0) specifications, he is currently a committer for the Apache TomEE project.</h3>
+<h1 align="center">Hi there, I'm Daniel Dias 👋</h1>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=daniel-dos" alt="daniel-dos" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/danieldiasjava" target="blank"><img src="https://img.shields.io/twitter/follow/danieldiasjava?logo=twitter&style=for-the-badge" alt="danieldiasjava" /></a> </p>
-
-- 🔭 I’m currently working on Project [Apache Tomee](https://github.com/apache/tomee)
-
-- 🌱 I’m currently learning **Jakarta EE, MIcroprofile, CDI**
-
-- 📝 I regularly write articles on [https://medium.com/danieldiasjava](https://medium.com/danieldiasjava)
-
-- 📄 Know about my experiences [https://www.linkedin.com/in/danieldiasds/](https://www.linkedin.com/in/danieldiasds/)
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/danieldiasjava" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="danieldiasjava" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/danieldiasds" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="danieldiasjava" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/14205676" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="14205676" height="30" width="40" /></a>
-<a href="https://medium.com/@danieldiasjava" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@danieldiasjava" height="30" width="40" /></a>
+<p align="center">
+  <a href="https://www.linkedin.com/in/danieldiasds/">
+    <img src="https://img.shields.io/badge/LinkedIn-DanielDiasJava-blue?style=flat-square&logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="https://medium.com/danieldiasjava">
+    <img src="https://img.shields.io/badge/Medium-@danieldiasjava-black?style=flat-square&logo=medium" alt="Medium">
+  </a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.java.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=daniel-dos&show_icons=true&locale=en&layout=compact" alt="daniel-dos" /></p>
+### 👨‍💻 About Me
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=daniel-dos&show_icons=true&locale=en" alt="daniel-dos" /></p>
+I'm a passionate Jakarta EE Developer committed to continuous learning and community engagement. As a member of the Java Community Process (JCP), I've contributed to several specifications:
+
+- 🌐 JSR 371: MVC 1.0
+- 💰 JSR 354: Money and Currency API
+- ⚙️ JSR 382: Configuration API 1.0
+- 📏 JSR 385: Units of Measurement 2.0 (Expert Group)
+
+Currently, I'm a committer for the [Apache TomEE](https://tomee.apache.org/) project, where I contribute to enhancing Java EE technologies.
+
+---
+
+### 🔧 Technologies & Tools
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
+![Jakarta EE](https://img.shields.io/badge/Jakarta%20EE-007396?style=flat-square&logo=jakartaee&logoColor=white)
+![MicroProfile](https://img.shields.io/badge/MicroProfile-000000?style=flat-square&logo=eclipse&logoColor=white)
+![CDI](https://img.shields.io/badge/CDI-FF6F00?style=flat-square&logo=java&logoColor=white)
+![Apache TomEE](https://img.shields.io/badge/Apache%20TomEE-231F20?style=flat-square&logo=apache&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+
+---
+
+### 📚 Blog Posts
+
+I regularly share insights and tutorials on Java and Jakarta EE on my [Medium blog](https://medium.com/danieldiasjava). Check out my latest articles:
+
+- [Criando uma aplicação com JSR-371(MVC 1.0)-PT-BR](https://medium.com/danieldiasjava/criando-uma-aplica%C3%A7%C3%A3o-com-jsr-371-mvc-1-0-13635d0fc41f)
+- [Criando uma aplicação REST com SparkJava-PT-BR](https://medium.com/danieldiasjava/criando-uma-aplica%C3%A7%C3%A3o-rest-com-sparkjava-4d68737fd9b2)
+- [Conhecendo o Apache James](https://medium.com/danieldiasjava/conhecendo-o-apache-james-6ba97f9f43f6)
+- [Criando uma aplicação REST com Eclipse Vert.x](https://medium.com/danieldiasjava/criando-uma-aplicacao-rest-com-eclipse-vertx-37921aaa1d77)
+
+---
+
+### 📌 Featured Projects
+
+Here are some projects I've been working on:
+
+- [Apache TomEE](https://github.com/apache/tomee): Mirror of Apache TomEE
+- [TomEE Site Generator](https://github.com/apache/tomee-site-generator): Mirror of Apache TomEE Site Generator
+- [Krazo](https://github.com/eclipse-ee4j/krazo): MVC framework for Jakarta EE
+- [Jakarta MVC](https://github.com/jakartaee/mvc): Jakarta MVC project
+- [Medium Blog Posts](https://github.com/Daniel-Dos/danieldiasjava-medium-english): Repository for my English blog posts on Medium
+- [Apache DeltaSpike](https://github.com/apache/deltaspike): Mirror of Apache DeltaSpike
+
+---
+
+### 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Daniel-Dos&show_icons=true&theme=default&include_all_commits=true&count_private=true" alt="Daniel's GitHub Stats">
+</p>
+
+---
+
+### 🤝 Let's Connect
+
+I'm always open to collaboration and discussions. Feel free to reach out to me through the platforms below:
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/danieldiasds/)
+- 📝 [Medium](https://medium.com/danieldiasjava)
+
+---
+
+*Thank you for visiting my profile!*
+

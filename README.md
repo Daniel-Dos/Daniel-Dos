@@ -9,6 +9,8 @@
   </a>
 </p>
 
+![logo](danieldiasjava.png)
+
 ---
 
 ### 👨‍💻 About Me

@@ -60,7 +60,7 @@ Tech Stack:
 
 ### 📚 Blog Posts
 
-I regularly share insights and tutorials on Java and Jakarta EE on my [Medium blog](https://medium.com/danieldiasjava). Check out my latest articles:
+I regularly share insights and tutorials on Java and Jakarta EE on my [blog](https://daniel-dos.github.io/danieldias). Check out my latest articles:
 
 - [Criando uma aplicação com JSR-371(MVC 1.0)-PT-BR](https://medium.com/danieldiasjava/criando-uma-aplica%C3%A7%C3%A3o-com-jsr-371-mvc-1-0-13635d0fc41f)
 - [Criando uma aplicação REST com SparkJava-PT-BR](https://medium.com/danieldiasjava/criando-uma-aplica%C3%A7%C3%A3o-rest-com-sparkjava-4d68737fd9b2)
@@ -95,7 +95,7 @@ Here are some projects I've been working on:
 I'm always open to collaboration and discussions. Feel free to reach out to me through the platforms below:
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/danieldiasds/)
-- 📝 [Medium](https://medium.com/danieldiasjava)
+- 📝 [Blog](https://daniel-dos.github.io/danieldias)
 
 ---
 

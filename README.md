@@ -47,6 +47,7 @@ Tech Stack:
 
 ### 🔧 Technologies & Tools
 
+![Golang](https://img.shields.io/badge/Go-00ADD8?logo=Go&logoColor=white&style=for-the-badge)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=java&logoColor=white)
 ![Jakarta EE](https://img.shields.io/badge/Jakarta%20EE-007396?style=flat-square&logo=jakartaee&logoColor=white)
 ![MicroProfile](https://img.shields.io/badge/MicroProfile-000000?style=flat-square&logo=eclipse&logoColor=white)

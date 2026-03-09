@@ -31,6 +31,7 @@ Beyond my day job, I'm a **committer on [Apache TomEE](https://tomee.apache.org/
 
 Currently on a journey learning **Rust** 🦀 — exploring its approach to memory safety, testing, and systems programming.
 
+**Java**
 ```java
 public class DanielDias implements SoftwareEngineer {
 
@@ -38,13 +39,74 @@ public class DanielDias implements SoftwareEngineer {
     private final String oss       = "Apache TomEE Committer | Jakarta EE & EclipseEE4J Contributor";
     private final String focus     = "Distributed Systems · Clean Architecture · Open Source";
     private final String learning  = "Rust 🦀";
-
     private final String[] stack   = {"Java", "Go", "Rust"};
 
     @Override
     public String passion() {
         return "Building software that evolves with the business — clean, simple, maintainable.";
     }
+}
+```
+
+**Go**
+```go
+type SoftwareEngineer interface {
+    passion() string
+}
+
+type DanielDias struct {
+    employer string
+    oss      string
+    focus    string
+    learning string
+    stack    []string
+}
+
+func (d DanielDias) passion() string {
+    return "Building software that evolves with the business — clean, simple, maintainable."
+}
+
+func main() {
+    daniel := DanielDias{
+        employer: "Itaú Unibanco",
+        oss:      "Apache TomEE Committer | Jakarta EE & EclipseEE4J Contributor",
+        focus:    "Distributed Systems · Clean Architecture · Open Source",
+        learning: "Rust 🦀",
+        stack:    []string{"Java", "Go", "Rust"},
+    }
+    fmt.Println(daniel.passion())
+}
+```
+
+**Rust**
+```rust
+trait SoftwareEngineer {
+    fn passion(&self) -> &str;
+}
+
+struct DanielDias {
+    employer: &'static str,
+    oss:      &'static str,
+    focus:    &'static str,
+    learning: &'static str,
+    stack:    [&'static str; 3],
+}
+
+impl SoftwareEngineer for DanielDias {
+    fn passion(&self) -> &str {
+        "Building software that evolves with the business — clean, simple, maintainable."
+    }
+}
+
+fn main() {
+    let daniel = DanielDias {
+        employer: "Itaú Unibanco",
+        oss:      "Apache TomEE Committer | Jakarta EE & EclipseEE4J Contributor",
+        focus:    "Distributed Systems · Clean Architecture · Open Source",
+        learning: "Rust 🦀",
+        stack:    ["Java", "Go", "Rust"],
+    };
+    println!("{}", daniel.passion());
 }
 ```
 

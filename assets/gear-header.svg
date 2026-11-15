@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Daniel Dias — Java, Go, Rust and Open Source</title>
+  <desc id="desc">A brass clockwork gear arrangement inspired by the Daniel Dias blog homepage.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
+      <stop offset="0" stop-color="#382312"/>
+      <stop offset="1" stop-color="#0e0805"/>
+    </radialGradient>
+    <radialGradient id="brass" cx="34%" cy="28%" r="80%">
+      <stop offset="0" stop-color="#f7e2ad"/>
+      <stop offset=".38" stop-color="#d8a63f"/>
+      <stop offset=".72" stop-color="#a5701f"/>
+      <stop offset="1" stop-color="#54330c"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <g id="gear" fill="url(#brass)" stroke="#3a2308" stroke-width="2" stroke-linejoin="round">
+      <path d="M0-94 10-94 14-78 27-74 39-84 47-78 41-63 49-53 65-54 69-44 56-34 59-20 73-12 71-1 55 2 50 16 59 29 53 38 38 33 27 43 29 59 19 63 9 50-5 50-14 63-24 60-25 43-38 37-52 44-59 35-50 21-55 8-71 4-72-7-56-14-52-28-63-39-57-48-41-42-30-52-33-68-22-73-11-60 2-61Z"/>
+      <circle r="49" fill="none" stroke="#4a2d09" stroke-width="4"/>
+      <circle r="18" fill="#8a5a1a" stroke="#3a2308"/>
+      <circle r="7" fill="#150d07" stroke="#c9962f" stroke-width="2"/>
+      <g stroke="#4a2d09" stroke-width="5" stroke-linecap="round" opacity=".8">
+        <path d="M0-43V-20"/><path d="M0 43V20"/><path d="M43 0H20"/><path d="M-43 0H-20"/>
+        <path d="m30-30-15 15"/><path d="m-30 30 15-15"/><path d="m-30-30 15 15"/><path d="m30 30-15-15"/>
+      </g>
+    </g>
+  </defs>
+  <rect width="1200" height="280" rx="18" fill="url(#bg)"/>
+  <path d="M0 225H1200" stroke="#c9962f" stroke-opacity=".22"/>
+  <g fill="none" stroke="#c9962f" stroke-opacity=".13">
+    <path d="M0 34H1200M0 246H1200"/>
+    <circle cx="600" cy="140" r="126"/><circle cx="600" cy="140" r="112" stroke-dasharray="2 9"/>
+  </g>
+  <g filter="url(#glow)" opacity=".9">
+    <g class="gear gear-left" transform="translate(205 140) scale(1.05)"><use href="#gear"/></g>
+    <g class="gear gear-small" transform="translate(330 213) scale(.52)"><use href="#gear"/></g>
+    <g class="gear gear-right" transform="translate(995 139) scale(1.05)"><use href="#gear"/></g>
+    <g class="gear gear-small-rev" transform="translate(870 65) scale(.52)"><use href="#gear"/></g>
+    <g class="gear gear-low" transform="translate(600 252) scale(.28)"><use href="#gear"/></g>
+  </g>
+  <g text-anchor="middle" font-family="Georgia, 'Times New Roman', serif">
+    <text x="600" y="128" fill="#f7e2ad" font-size="58" font-weight="700" letter-spacing="2">Daniel Dias</text>
+    <path d="M390 148H810" stroke="#c9962f" stroke-opacity=".75"/>
+    <text x="600" y="180" fill="#d8b56a" font-family="monospace" font-size="17" letter-spacing="3">JAVA · GO · RUST · OPEN SOURCE</text>
+  </g>
+  <style>
+    .gear { transform-box: fill-box; transform-origin: center; animation: spin 90s linear infinite; }
+    .gear-small { animation-duration: 58s; animation-direction: reverse; }
+    .gear-right { animation-duration: 110s; animation-direction: reverse; }
+    .gear-small-rev { animation-duration: 72s; }
+    .gear-low { animation-duration: 140s; animation-direction: reverse; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (prefers-reduced-motion: reduce) { .gear { animation: none; } }
+  </style>
+</svg>

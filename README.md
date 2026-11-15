@@ -1,7 +1,9 @@
 <div align="center">
 
 <!-- ANIMATED HEADER SVG -->
-<img src="https://capsule-render.vercel.app/api?type=venom&height=200&text=Daniel%20Dias&fontSize=70&color=0:0a0e14,100:161b22&stroke=ED8B00&strokeWidth=2&fontColor=cdd9e5&animation=fadeIn&fontAlignY=55&desc=Java%20%C2%B7%20Go%20%C2%B7%20Rust%20%C2%B7%20Distributed%20Systems%20%C2%B7%20Open%20Source&descSize=16&descAlignY=75&descColor=636e7b" width="100%"/>
+<!--<img src="https://capsule-render.vercel.app/api?type=venom&height=200&text=Daniel%20Dias&fontSize=70&color=0:0a0e14,100:161b22&stroke=ED8B00&strokeWidth=2&fontColor=cdd9e5&animation=fadeIn&fontAlignY=55&desc=Java%20%C2%B7%20Go%20%C2%B7%20Rust%20%C2%B7%20Distributed%20Systems%20%C2%B7%20Open%20Source&descSize=16&descAlignY=75&descColor=636e7b" width="100%"/> -->
+
+<img src="assets/gear-header.svg" width="100%" alt="Daniel Dias — Java, Go, Rust e Open Source" />
 
 <br/>
 

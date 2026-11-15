@@ -27,7 +27,7 @@
 
 ## `$ whoami`
 
-Backend engineer with deep expertise in **Java**, **Go**, and **Rust**, focused on **distributed systems** and large-scale modernization. At **Itaú Unibanco** — one of Latin America's largest banks — I lead the transformation of legacy monoliths into resilient, scalable microservices.
+As a Software Engineer at Itaú Unibanco, I build and modernize backend systems, transitioning legacy monoliths into resilient microservices using Java, Go, and Rust.
 
 Beyond my day job, I'm a **committer on [Apache TomEE](https://tomee.apache.org/)** and contributor to **Jakarta EE**, **MicroProfile**, and **EclipseEE4J** — actively shaping the future of enterprise Java.
 

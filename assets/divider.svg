@@ -1,24 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24"
-  viewBox="0 0 1200 24" role="presentation">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="26"
+  viewBox="0 0 1200 26" role="presentation">
   <defs>
-    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+    <linearGradient id="dl" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#d4a359" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#d4a359" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#d4a359" stop-opacity="0.7"/>
     </linearGradient>
-    <linearGradient id="fadeR" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#d4a359" stop-opacity="0.65"/>
+    <linearGradient id="dr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4a359" stop-opacity="0.7"/>
       <stop offset="100%" stop-color="#d4a359" stop-opacity="0"/>
     </linearGradient>
   </defs>
-  <rect x="0" y="11" width="545" height="1.5" fill="url(#fadeL)"/>
-  <rect x="655" y="11" width="545" height="1.5" fill="url(#fadeR)"/>
-  <g transform="translate(600,12)">
+  <rect x="0" y="12" width="540" height="1.6" fill="url(#dl)"/>
+  <rect x="660" y="12" width="540" height="1.6" fill="url(#dr)"/>
+  <circle cx="540" cy="12" r="2.4" fill="#d4a359">
+    <animate attributeName="opacity" values="0.25;1;0.25" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="660" cy="12" r="2.4" fill="#d4a359">
+    <animate attributeName="opacity" values="1;0.25;1" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <g transform="translate(600,13)">
     <g>
       <animateTransform attributeName="transform" type="rotate"
-        from="0 0 0" to="360 0 0" dur="20s" repeatCount="indefinite"/>
-      <path d="M 9.85,-1.74 L 9.85,1.74 L 7.29,1.28 L 6.41,3.70 L 8.66,5.00 L 6.43,7.66 L 4.76,5.67 L 2.53,6.95 L 3.42,9.40 L 0.00,10.00 L 0.00,7.40 L -2.53,6.95 L -3.42,9.40 L -6.43,7.66 L -4.76,5.67 L -6.41,3.70 L -8.66,5.00 L -9.85,1.74 L -7.29,1.28 L -7.29,-1.28 L -9.85,-1.74 L -8.66,-5.00 L -6.41,-3.70 L -4.76,-5.67 L -6.43,-7.66 L -3.42,-9.40 L -2.53,-6.95 L -0.00,-7.40 L -0.00,-10.00 L 3.42,-9.40 L 2.53,-6.95 L 4.76,-5.67 L 6.43,-7.66 L 8.66,-5.00 L 6.41,-3.70 L 7.29,-1.28 Z" fill="none"
-        stroke="#d4a359" stroke-width="1.6" stroke-linejoin="round"/>
-      <circle r="3.4" fill="none" stroke="#d4a359" stroke-width="1.6"/>
+        from="0 0 0" to="360 0 0" dur="18s" repeatCount="indefinite"/>
+      <path d="M 10.34,-1.82 L 10.34,1.82 L 7.48,1.32 L 6.58,3.80 L 9.09,5.25 L 6.75,8.04 L 4.89,5.82 L 2.60,7.14 L 3.59,9.87 L 0.00,10.50 L 0.00,7.60 L -2.60,7.14 L -3.59,9.87 L -6.75,8.04 L -4.89,5.82 L -6.58,3.80 L -9.09,5.25 L -10.34,1.82 L -7.48,1.32 L -7.48,-1.32 L -10.34,-1.82 L -9.09,-5.25 L -6.58,-3.80 L -4.89,-5.82 L -6.75,-8.04 L -3.59,-9.87 L -2.60,-7.14 L -0.00,-7.60 L -0.00,-10.50 L 3.59,-9.87 L 2.60,-7.14 L 4.89,-5.82 L 6.75,-8.04 L 9.09,-5.25 L 6.58,-3.80 L 7.48,-1.32 Z" fill="none"
+        stroke="#d4a359" stroke-width="1.7" stroke-linejoin="round"/>
+      <circle r="3.6" fill="none" stroke="#d4a359" stroke-width="1.7"/>
     </g>
   </g>
 </svg>

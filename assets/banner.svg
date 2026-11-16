@@ -1,70 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320"
-  viewBox="0 0 1200 320" role="img" aria-labelledby="ttl dsc">
-  <title id="ttl">Daniel Dias — Software Engineer</title>
-  <desc id="dsc">Banner em tons de latão com engrenagens girando</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340"
+  viewBox="0 0 1200 340" role="img" aria-labelledby="bt bd">
+  <title id="bt">Daniel Dias — Software Engineer</title>
+  <desc id="bd">Banner escuro em tons de latão, com engrenagens girando, brilho pulsante e o nome Daniel Dias</desc>
 
   <defs>
     <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#16130f" stop-opacity="1"/>
+      <stop offset="72%" stop-color="#16130f" stop-opacity="0.85"/>
       <stop offset="100%" stop-color="#16130f" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#d4a359"/>
-      <stop offset="55%" stop-color="#e06d3b" stop-opacity="0.75"/>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4a359" stop-opacity="0"/>
+      <stop offset="18%" stop-color="#d4a359"/>
+      <stop offset="70%" stop-color="#e06d3b" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="#d4a359" stop-opacity="0"/>
     </linearGradient>
-    <radialGradient id="glow" cx="80%" cy="50%" r="58%">
-      <stop offset="0%" stop-color="#d4a359" stop-opacity="0.18"/>
+    <radialGradient id="glow" cx="82%" cy="50%" r="48%">
+      <stop offset="0%" stop-color="#d4a359" stop-opacity="0.22"/>
+      <stop offset="70%" stop-color="#d4a359" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="#d4a359" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dot" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#6ee7b7" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#6ee7b7" stop-opacity="0"/>
     </radialGradient>
   </defs>
 
-  <rect width="1200" height="320" rx="18" fill="#0c0b09"/>
-  <rect width="1200" height="320" rx="18" fill="url(#glow)"/>
+  <rect width="1200" height="340" rx="20" fill="#0c0b09"/>
+
+  <!-- engrenagem gigante de fundo -->
+  <g opacity="0.055">
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 1030 170" to="360 1030 170" dur="150s" repeatCount="indefinite"/>
+    <path d="M 1259.74,159.17 L 1259.74,180.83 L 1237.77,179.80 L 1235.27,203.61 L 1256.98,207.17 L 1252.47,228.36 L 1231.19,222.78 L 1223.79,245.56 L 1244.29,253.55 L 1235.48,273.34 L 1215.82,263.46 L 1203.85,284.20 L 1222.24,296.28 L 1209.50,313.81 L 1192.33,300.05 L 1176.31,317.85 L 1191.78,333.48 L 1175.68,347.98 L 1161.74,330.96 L 1142.37,345.03 L 1154.26,363.55 L 1135.49,374.38 L 1125.40,354.83 L 1103.52,364.57 L 1111.30,385.15 L 1090.69,391.85 L 1084.89,370.63 L 1061.46,375.61 L 1064.79,397.35 L 1043.24,399.62 L 1041.97,377.66 L 1018.03,377.66 L 1016.76,399.62 L 995.21,397.35 L 998.54,375.61 L 975.11,370.63 L 969.31,391.85 L 948.70,385.15 L 956.48,364.57 L 934.60,354.83 L 924.51,374.38 L 905.74,363.55 L 917.63,345.03 L 898.26,330.96 L 884.32,347.98 L 868.22,333.48 L 883.69,317.85 L 867.67,300.05 L 850.50,313.81 L 837.76,296.28 L 856.15,284.20 L 844.18,263.46 L 824.52,273.34 L 815.71,253.55 L 836.21,245.56 L 828.81,222.78 L 807.53,228.36 L 803.02,207.17 L 824.73,203.61 L 822.23,179.80 L 800.26,180.83 L 800.26,159.17 L 822.23,160.20 L 824.73,136.39 L 803.02,132.83 L 807.53,111.64 L 828.81,117.22 L 836.21,94.44 L 815.71,86.45 L 824.52,66.66 L 844.18,76.54 L 856.15,55.80 L 837.76,43.72 L 850.50,26.19 L 867.67,39.95 L 883.69,22.15 L 868.22,6.52 L 884.32,-7.98 L 898.26,9.04 L 917.63,-5.03 L 905.74,-23.55 L 924.51,-34.38 L 934.60,-14.83 L 956.48,-24.57 L 948.70,-45.15 L 969.31,-51.85 L 975.11,-30.63 L 998.54,-35.61 L 995.21,-57.35 L 1016.76,-59.62 L 1018.03,-37.66 L 1041.97,-37.66 L 1043.24,-59.62 L 1064.79,-57.35 L 1061.46,-35.61 L 1084.89,-30.63 L 1090.69,-51.85 L 1111.30,-45.15 L 1103.52,-24.57 L 1125.40,-14.83 L 1135.49,-34.38 L 1154.26,-23.55 L 1142.37,-5.03 L 1161.74,9.04 L 1175.68,-7.98 L 1191.78,6.52 L 1176.31,22.15 L 1192.33,39.95 L 1209.50,26.19 L 1222.24,43.72 L 1203.85,55.80 L 1215.82,76.54 L 1235.48,66.66 L 1244.29,86.45 L 1223.79,94.44 L 1231.19,117.22 L 1252.47,111.64 L 1256.98,132.83 L 1235.27,136.39 L 1237.77,160.20 Z" fill="none" stroke="#d4a359" stroke-width="2"/>
+  </g>
+
+  <rect width="1200" height="340" rx="20" fill="url(#glow)">
+    <animate attributeName="opacity" values="0.75;1;0.75" dur="7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- malha pontilhada -->
+  <g fill="#d4a359" opacity="0.14">
+    <circle cx="640" cy="60" r="1.6"/><circle cx="700" cy="60" r="1.6"/>
+    <circle cx="760" cy="60" r="1.6"/><circle cx="820" cy="60" r="1.6"/>
+    <circle cx="640" cy="286" r="1.6"/><circle cx="700" cy="286" r="1.6"/>
+    <circle cx="760" cy="286" r="1.6"/><circle cx="820" cy="286" r="1.6"/>
+  </g>
 
   <g opacity="0.95">
     <animateTransform attributeName="transform" type="rotate"
-      from="0 1000 158" to="360 1000 158" dur="24s" repeatCount="indefinite"/>
-    <path d="M 1105.74,150.51 L 1105.74,165.49 L 1089.78,164.36 L 1087.35,179.70 L 1102.87,183.55 L 1098.25,197.79 L 1083.42,191.79 L 1076.37,205.63 L 1089.94,214.09 L 1081.14,226.21 L 1068.89,215.91 L 1057.91,226.89 L 1068.21,239.14 L 1056.09,247.94 L 1047.63,234.37 L 1033.79,241.42 L 1039.79,256.25 L 1025.55,260.87 L 1021.70,245.35 L 1006.36,247.78 L 1007.49,263.74 L 992.51,263.74 L 993.64,247.78 L 978.30,245.35 L 974.45,260.87 L 960.21,256.25 L 966.21,241.42 L 952.37,234.37 L 943.91,247.94 L 931.79,239.14 L 942.09,226.89 L 931.11,215.91 L 918.86,226.21 L 910.06,214.09 L 923.63,205.63 L 916.58,191.79 L 901.75,197.79 L 897.13,183.55 L 912.65,179.70 L 910.22,164.36 L 894.26,165.49 L 894.26,150.51 L 910.22,151.64 L 912.65,136.30 L 897.13,132.45 L 901.75,118.21 L 916.58,124.21 L 923.63,110.37 L 910.06,101.91 L 918.86,89.79 L 931.11,100.09 L 942.09,89.11 L 931.79,76.86 L 943.91,68.06 L 952.37,81.63 L 966.21,74.58 L 960.21,59.75 L 974.45,55.13 L 978.30,70.65 L 993.64,68.22 L 992.51,52.26 L 1007.49,52.26 L 1006.36,68.22 L 1021.70,70.65 L 1025.55,55.13 L 1039.79,59.75 L 1033.79,74.58 L 1047.63,81.63 L 1056.09,68.06 L 1068.21,76.86 L 1057.91,89.11 L 1068.89,100.09 L 1081.14,89.79 L 1089.94,101.91 L 1076.37,110.37 L 1083.42,124.21 L 1098.25,118.21 L 1102.87,132.45 L 1087.35,136.30 L 1089.78,151.64 Z" fill="none"
+      from="0 986 176" to="360 986 176" dur="26s" repeatCount="indefinite"/>
+    <path d="M 1087.75,168.80 L 1087.75,183.20 L 1071.79,182.07 L 1069.46,196.73 L 1084.99,200.59 L 1080.54,214.29 L 1065.71,208.29 L 1058.97,221.51 L 1072.55,229.98 L 1064.08,241.63 L 1051.83,231.34 L 1041.34,241.83 L 1051.63,254.08 L 1039.98,262.55 L 1031.51,248.97 L 1018.29,255.71 L 1024.29,270.54 L 1010.59,274.99 L 1006.73,259.46 L 992.07,261.79 L 993.20,277.75 L 978.80,277.75 L 979.93,261.79 L 965.27,259.46 L 961.41,274.99 L 947.71,270.54 L 953.71,255.71 L 940.49,248.97 L 932.02,262.55 L 920.37,254.08 L 930.66,241.83 L 920.17,231.34 L 907.92,241.63 L 899.45,229.98 L 913.03,221.51 L 906.29,208.29 L 891.46,214.29 L 887.01,200.59 L 902.54,196.73 L 900.21,182.07 L 884.25,183.20 L 884.25,168.80 L 900.21,169.93 L 902.54,155.27 L 887.01,151.41 L 891.46,137.71 L 906.29,143.71 L 913.03,130.49 L 899.45,122.02 L 907.92,110.37 L 920.17,120.66 L 930.66,110.17 L 920.37,97.92 L 932.02,89.45 L 940.49,103.03 L 953.71,96.29 L 947.71,81.46 L 961.41,77.01 L 965.27,92.54 L 979.93,90.21 L 978.80,74.25 L 993.20,74.25 L 992.07,90.21 L 1006.73,92.54 L 1010.59,77.01 L 1024.29,81.46 L 1018.29,96.29 L 1031.51,103.03 L 1039.98,89.45 L 1051.63,97.92 L 1041.34,110.17 L 1051.83,120.66 L 1064.08,110.37 L 1072.55,122.02 L 1058.97,130.49 L 1065.71,143.71 L 1080.54,137.71 L 1084.99,151.41 L 1069.46,155.27 L 1071.79,169.93 Z" fill="none"
       stroke="#d4a359" stroke-width="3" stroke-linejoin="round"/>
-    <circle cx="1000" cy="158" r="36.00" fill="none" stroke="#d4a359" stroke-width="3" opacity="0.95"/>
-    <circle cx="1000" cy="158" r="15.12" fill="none" stroke="#d4a359" stroke-width="2.25" opacity="0.95"/>
+    <circle cx="986" cy="176" r="34" fill="#16130f" stroke="#d4a359" stroke-width="3"/>
+    <circle cx="986" cy="176" r="14.28" fill="none" stroke="#d4a359" stroke-width="2.25" opacity="0.8"/>
   </g>
   <g opacity="0.85">
     <animateTransform attributeName="transform" type="rotate"
-      from="360 1128 62" to="0 1128 62" dur="14s" repeatCount="indefinite"/>
-    <path d="M 1181.68,56.14 L 1181.68,67.86 L 1170.75,66.67 L 1168.02,77.73 L 1178.26,81.76 L 1172.81,92.14 L 1163.68,86.00 L 1156.12,94.53 L 1163.32,102.85 L 1153.67,109.51 L 1148.44,99.83 L 1137.79,103.87 L 1140.29,114.58 L 1128.65,116.00 L 1128.52,105.00 L 1117.21,103.62 L 1114.44,114.27 L 1103.48,110.11 L 1108.48,100.31 L 1099.10,93.84 L 1091.71,101.98 L 1083.93,93.21 L 1092.91,86.85 L 1087.61,76.76 L 1077.28,80.54 L 1074.48,69.16 L 1085.38,67.70 L 1085.38,56.30 L 1074.48,54.84 L 1077.28,43.46 L 1087.61,47.24 L 1092.91,37.15 L 1083.93,30.79 L 1091.71,22.02 L 1099.10,30.16 L 1108.48,23.69 L 1103.48,13.89 L 1114.44,9.73 L 1117.21,20.38 L 1128.52,19.00 L 1128.65,8.00 L 1140.29,9.42 L 1137.79,20.13 L 1148.44,24.17 L 1153.67,14.49 L 1163.32,21.15 L 1156.12,29.47 L 1163.68,38.00 L 1172.81,31.86 L 1178.26,42.24 L 1168.02,46.27 L 1170.75,57.33 Z" fill="none"
+      from="360 1114 62" to="0 1114 62" dur="15s" repeatCount="indefinite"/>
+    <path d="M 1166.69,56.25 L 1166.69,67.75 L 1155.75,66.56 L 1153.09,77.37 L 1163.33,81.39 L 1157.98,91.58 L 1148.85,85.44 L 1141.47,93.77 L 1148.66,102.09 L 1139.20,108.63 L 1133.97,98.95 L 1123.56,102.90 L 1126.06,113.61 L 1114.64,115.00 L 1114.51,104.00 L 1103.46,102.66 L 1100.70,113.30 L 1089.94,109.22 L 1094.93,99.42 L 1085.77,93.10 L 1078.38,101.24 L 1070.75,92.63 L 1079.73,86.27 L 1074.55,76.42 L 1064.22,80.19 L 1061.47,69.02 L 1072.37,67.57 L 1072.37,56.43 L 1061.47,54.98 L 1064.22,43.81 L 1074.55,47.58 L 1079.73,37.73 L 1070.75,31.37 L 1078.38,22.76 L 1085.77,30.90 L 1094.93,24.58 L 1089.94,14.78 L 1100.70,10.70 L 1103.46,21.34 L 1114.51,20.00 L 1114.64,9.00 L 1126.06,10.39 L 1123.56,21.10 L 1133.97,25.05 L 1139.20,15.37 L 1148.66,21.91 L 1141.47,30.23 L 1148.85,38.56 L 1157.98,32.42 L 1163.33,42.61 L 1153.09,46.63 L 1155.75,57.44 Z" fill="none"
       stroke="#e06d3b" stroke-width="2.4" stroke-linejoin="round"/>
-    <circle cx="1128" cy="62" r="17.00" fill="none" stroke="#e06d3b" stroke-width="2.4" opacity="0.85"/>
-    <circle cx="1128" cy="62" r="7.14" fill="none" stroke="#e06d3b" stroke-width="1.7999999999999998" opacity="0.85"/>
+    <circle cx="1114" cy="62" r="16" fill="#16130f" stroke="#e06d3b" stroke-width="2.4"/>
+    <circle cx="1114" cy="62" r="6.72" fill="none" stroke="#e06d3b" stroke-width="1.80" opacity="0.8"/>
   </g>
   <g opacity="0.8">
     <animateTransform attributeName="transform" type="rotate"
-      from="360 1104 258" to="0 1104 258" dur="10s" repeatCount="indefinite"/>
-    <path d="M 1141.69,253.13 L 1141.69,262.87 L 1132.76,261.72 L 1130.20,270.42 L 1138.34,274.28 L 1133.07,282.47 L 1126.19,276.68 L 1119.33,282.62 L 1124.09,290.26 L 1115.23,294.30 L 1112.57,285.71 L 1103.59,287.00 L 1103.46,296.00 L 1093.82,294.61 L 1096.23,285.94 L 1087.97,282.17 L 1083.00,289.67 L 1075.64,283.29 L 1082.36,277.30 L 1077.45,269.67 L 1069.21,273.29 L 1066.47,263.94 L 1075.36,262.54 L 1075.36,253.46 L 1066.47,252.06 L 1069.21,242.71 L 1077.45,246.33 L 1082.36,238.70 L 1075.64,232.71 L 1083.00,226.33 L 1087.97,233.83 L 1096.23,230.06 L 1093.82,221.39 L 1103.46,220.00 L 1103.59,229.00 L 1112.57,230.29 L 1115.23,221.70 L 1124.09,225.74 L 1119.33,233.38 L 1126.19,239.32 L 1133.07,233.53 L 1138.34,241.72 L 1130.20,245.58 L 1132.76,254.28 Z" fill="none"
+      from="360 1090 272" to="0 1090 272" dur="11s" repeatCount="indefinite"/>
+    <path d="M 1126.69,267.26 L 1126.69,276.74 L 1117.77,275.59 L 1115.30,283.99 L 1123.43,287.85 L 1118.31,295.83 L 1111.42,290.03 L 1104.80,295.77 L 1109.56,303.41 L 1100.93,307.35 L 1098.27,298.75 L 1089.60,300.00 L 1089.47,309.00 L 1080.08,307.65 L 1082.50,298.98 L 1074.53,295.34 L 1069.55,302.84 L 1062.39,296.63 L 1069.10,290.64 L 1064.37,283.27 L 1056.13,286.89 L 1053.46,277.79 L 1062.34,276.38 L 1062.34,267.62 L 1053.46,266.21 L 1056.13,257.11 L 1064.37,260.73 L 1069.10,253.36 L 1062.39,247.37 L 1069.55,241.16 L 1074.53,248.66 L 1082.50,245.02 L 1080.08,236.35 L 1089.47,235.00 L 1089.60,244.00 L 1098.27,245.25 L 1100.93,236.65 L 1109.56,240.59 L 1104.80,248.23 L 1111.42,253.97 L 1118.31,248.17 L 1123.43,256.15 L 1115.30,260.01 L 1117.77,268.41 Z" fill="none"
       stroke="#8a6b3a" stroke-width="2.2" stroke-linejoin="round"/>
-    <circle cx="1104" cy="258" r="12.00" fill="none" stroke="#8a6b3a" stroke-width="2.2" opacity="0.8"/>
-    <circle cx="1104" cy="258" r="5.04" fill="none" stroke="#8a6b3a" stroke-width="1.6500000000000001" opacity="0.8"/>
+    <circle cx="1090" cy="272" r="11" fill="#16130f" stroke="#8a6b3a" stroke-width="2.2"/>
+    <circle cx="1090" cy="272" r="4.62" fill="none" stroke="#8a6b3a" stroke-width="1.65" opacity="0.8"/>
   </g>
 
-  <rect x="1" y="1" width="1198" height="318" rx="17" fill="none"
+  <rect x="1" y="1" width="1198" height="338" rx="19" fill="none"
     stroke="#8a6b3a" stroke-opacity="0.55"/>
-  <rect x="0" y="0" width="780" height="320" fill="url(#fade)" opacity="0.94"/>
+  <rect x="0" y="0" width="820" height="340" fill="url(#fade)"/>
 
-  <text x="72" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif"
-    font-size="15" letter-spacing="5.5" fill="#d4a359" opacity="0.9">
-    CLOCKWORK // DISTRIBUTED SYSTEMS
-  </text>
+  <!-- status -->
+  <g>
+    <circle cx="78" cy="104" r="9" fill="url(#dot)" opacity="0.55">
+      <animate attributeName="opacity" values="0.2;0.75;0.2" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="78" cy="104" r="4" fill="#6ee7b7"/>
+  </g>
+  <text x="96" y="109" font-family="Consolas, Menlo, monospace" font-size="14"
+    letter-spacing="4.5" fill="#d4a359">SOFTWARE ENGINEER · DISTRIBUTED SYSTEMS</text>
 
-  <text x="70" y="192" font-family="Segoe UI, Helvetica, Arial, sans-serif"
-    font-size="64" font-weight="800" fill="#f3efe6" letter-spacing="-1.2">
-    Daniel Dias
-  </text>
+  <text x="70" y="204" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+    font-size="72" font-weight="800" fill="#f3efe6" letter-spacing="-1.6">Daniel Dias</text>
 
-  <rect x="72" y="222" width="430" height="3" rx="2" fill="url(#line)"/>
+  <rect x="74" y="232" width="470" height="2.5" rx="1.5" fill="url(#rule)"/>
+  <circle cx="74" r="3.2" cy="233.2" fill="#f3efe6" opacity="0.95">
+    <animate attributeName="cx" values="74;544;74" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.95;0.95;0" dur="7s" repeatCount="indefinite"/>
+  </circle>
 
-  <text x="72" y="266" font-family="Consolas, Menlo, monospace"
-    font-size="17" fill="#a39a8c">
-    Java · Go · Rust · Apache TomEE
-  </text>
+  <text x="72" y="280" font-family="Consolas, Menlo, monospace" font-size="17"
+    fill="#a39a8c">Java · Go · Rust · Apache TomEE</text>
 </svg>

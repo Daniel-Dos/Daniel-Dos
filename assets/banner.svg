@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320"
+  viewBox="0 0 1200 320" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">Daniel Dias — Software Engineer</title>
+  <desc id="dsc">Banner em tons de latão com engrenagens girando</desc>
+
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#16130f" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#16130f" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4a359"/>
+      <stop offset="55%" stop-color="#e06d3b" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#d4a359" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="50%" r="58%">
+      <stop offset="0%" stop-color="#d4a359" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#d4a359" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="#0c0b09"/>
+  <rect width="1200" height="320" rx="18" fill="url(#glow)"/>
+
+  <g opacity="0.95">
+    <animateTransform attributeName="transform" type="rotate"
+      from="0 1000 158" to="360 1000 158" dur="24s" repeatCount="indefinite"/>
+    <path d="M 1105.74,150.51 L 1105.74,165.49 L 1089.78,164.36 L 1087.35,179.70 L 1102.87,183.55 L 1098.25,197.79 L 1083.42,191.79 L 1076.37,205.63 L 1089.94,214.09 L 1081.14,226.21 L 1068.89,215.91 L 1057.91,226.89 L 1068.21,239.14 L 1056.09,247.94 L 1047.63,234.37 L 1033.79,241.42 L 1039.79,256.25 L 1025.55,260.87 L 1021.70,245.35 L 1006.36,247.78 L 1007.49,263.74 L 992.51,263.74 L 993.64,247.78 L 978.30,245.35 L 974.45,260.87 L 960.21,256.25 L 966.21,241.42 L 952.37,234.37 L 943.91,247.94 L 931.79,239.14 L 942.09,226.89 L 931.11,215.91 L 918.86,226.21 L 910.06,214.09 L 923.63,205.63 L 916.58,191.79 L 901.75,197.79 L 897.13,183.55 L 912.65,179.70 L 910.22,164.36 L 894.26,165.49 L 894.26,150.51 L 910.22,151.64 L 912.65,136.30 L 897.13,132.45 L 901.75,118.21 L 916.58,124.21 L 923.63,110.37 L 910.06,101.91 L 918.86,89.79 L 931.11,100.09 L 942.09,89.11 L 931.79,76.86 L 943.91,68.06 L 952.37,81.63 L 966.21,74.58 L 960.21,59.75 L 974.45,55.13 L 978.30,70.65 L 993.64,68.22 L 992.51,52.26 L 1007.49,52.26 L 1006.36,68.22 L 1021.70,70.65 L 1025.55,55.13 L 1039.79,59.75 L 1033.79,74.58 L 1047.63,81.63 L 1056.09,68.06 L 1068.21,76.86 L 1057.91,89.11 L 1068.89,100.09 L 1081.14,89.79 L 1089.94,101.91 L 1076.37,110.37 L 1083.42,124.21 L 1098.25,118.21 L 1102.87,132.45 L 1087.35,136.30 L 1089.78,151.64 Z" fill="none"
+      stroke="#d4a359" stroke-width="3" stroke-linejoin="round"/>
+    <circle cx="1000" cy="158" r="36.00" fill="none" stroke="#d4a359" stroke-width="3" opacity="0.95"/>
+    <circle cx="1000" cy="158" r="15.12" fill="none" stroke="#d4a359" stroke-width="2.25" opacity="0.95"/>
+  </g>
+  <g opacity="0.85">
+    <animateTransform attributeName="transform" type="rotate"
+      from="360 1128 62" to="0 1128 62" dur="14s" repeatCount="indefinite"/>
+    <path d="M 1181.68,56.14 L 1181.68,67.86 L 1170.75,66.67 L 1168.02,77.73 L 1178.26,81.76 L 1172.81,92.14 L 1163.68,86.00 L 1156.12,94.53 L 1163.32,102.85 L 1153.67,109.51 L 1148.44,99.83 L 1137.79,103.87 L 1140.29,114.58 L 1128.65,116.00 L 1128.52,105.00 L 1117.21,103.62 L 1114.44,114.27 L 1103.48,110.11 L 1108.48,100.31 L 1099.10,93.84 L 1091.71,101.98 L 1083.93,93.21 L 1092.91,86.85 L 1087.61,76.76 L 1077.28,80.54 L 1074.48,69.16 L 1085.38,67.70 L 1085.38,56.30 L 1074.48,54.84 L 1077.28,43.46 L 1087.61,47.24 L 1092.91,37.15 L 1083.93,30.79 L 1091.71,22.02 L 1099.10,30.16 L 1108.48,23.69 L 1103.48,13.89 L 1114.44,9.73 L 1117.21,20.38 L 1128.52,19.00 L 1128.65,8.00 L 1140.29,9.42 L 1137.79,20.13 L 1148.44,24.17 L 1153.67,14.49 L 1163.32,21.15 L 1156.12,29.47 L 1163.68,38.00 L 1172.81,31.86 L 1178.26,42.24 L 1168.02,46.27 L 1170.75,57.33 Z" fill="none"
+      stroke="#e06d3b" stroke-width="2.4" stroke-linejoin="round"/>
+    <circle cx="1128" cy="62" r="17.00" fill="none" stroke="#e06d3b" stroke-width="2.4" opacity="0.85"/>
+    <circle cx="1128" cy="62" r="7.14" fill="none" stroke="#e06d3b" stroke-width="1.7999999999999998" opacity="0.85"/>
+  </g>
+  <g opacity="0.8">
+    <animateTransform attributeName="transform" type="rotate"
+      from="360 1104 258" to="0 1104 258" dur="10s" repeatCount="indefinite"/>
+    <path d="M 1141.69,253.13 L 1141.69,262.87 L 1132.76,261.72 L 1130.20,270.42 L 1138.34,274.28 L 1133.07,282.47 L 1126.19,276.68 L 1119.33,282.62 L 1124.09,290.26 L 1115.23,294.30 L 1112.57,285.71 L 1103.59,287.00 L 1103.46,296.00 L 1093.82,294.61 L 1096.23,285.94 L 1087.97,282.17 L 1083.00,289.67 L 1075.64,283.29 L 1082.36,277.30 L 1077.45,269.67 L 1069.21,273.29 L 1066.47,263.94 L 1075.36,262.54 L 1075.36,253.46 L 1066.47,252.06 L 1069.21,242.71 L 1077.45,246.33 L 1082.36,238.70 L 1075.64,232.71 L 1083.00,226.33 L 1087.97,233.83 L 1096.23,230.06 L 1093.82,221.39 L 1103.46,220.00 L 1103.59,229.00 L 1112.57,230.29 L 1115.23,221.70 L 1124.09,225.74 L 1119.33,233.38 L 1126.19,239.32 L 1133.07,233.53 L 1138.34,241.72 L 1130.20,245.58 L 1132.76,254.28 Z" fill="none"
+      stroke="#8a6b3a" stroke-width="2.2" stroke-linejoin="round"/>
+    <circle cx="1104" cy="258" r="12.00" fill="none" stroke="#8a6b3a" stroke-width="2.2" opacity="0.8"/>
+    <circle cx="1104" cy="258" r="5.04" fill="none" stroke="#8a6b3a" stroke-width="1.6500000000000001" opacity="0.8"/>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="318" rx="17" fill="none"
+    stroke="#8a6b3a" stroke-opacity="0.55"/>
+  <rect x="0" y="0" width="780" height="320" fill="url(#fade)" opacity="0.94"/>
+
+  <text x="72" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+    font-size="15" letter-spacing="5.5" fill="#d4a359" opacity="0.9">
+    CLOCKWORK // DISTRIBUTED SYSTEMS
+  </text>
+
+  <text x="70" y="192" font-family="Segoe UI, Helvetica, Arial, sans-serif"
+    font-size="64" font-weight="800" fill="#f3efe6" letter-spacing="-1.2">
+    Daniel Dias
+  </text>
+
+  <rect x="72" y="222" width="430" height="3" rx="2" fill="url(#line)"/>
+
+  <text x="72" y="266" font-family="Consolas, Menlo, monospace"
+    font-size="17" fill="#a39a8c">
+    Java · Go · Rust · Apache TomEE
+  </text>
+</svg>

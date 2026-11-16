@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Banner: Daniel Dias — Software Engineer, clockwork & distributed systems, with brass gears" />
+<img src="assets/banner.svg" width="100%" alt="Daniel Dias — Software Engineer, distributed systems. Java, Go, Rust, Apache TomEE" />
 
-**Software Engineer — Java · Go · Rust · Distributed Systems · Open Source**
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=D4A359&center=true&vCenter=true&width=700&height=80&lines=backend+engineer;java+%C2%B7+go+%C2%B7+rust;distributed+systems+%26+open+source;apache+tomee+committer" alt="backend engineer · java · go · rust · distributed systems & open source" />
 
 ![Java](https://img.shields.io/badge/Java-d4a359?style=flat-square&logo=openjdk&logoColor=0c0b09)
 ![Go](https://img.shields.io/badge/Go-d4a359?style=flat-square&logo=go&logoColor=0c0b09)
@@ -31,6 +31,17 @@ fn main() {
 
 // telemetry · gearbox pressure — PWR · TMP 68°C · OIL 96%
 ```
+
+<img src="assets/divider.svg" width="100%" alt="" />
+
+## ⚙ Stack
+
+| Area | Tools |
+|:--|:--|
+| **Languages** | Java · Go · Rust *(systems programming studies)* |
+| **Backend & standards** | Jakarta EE · MicroProfile · Apache TomEE · REST APIs |
+| **Architecture** | Microservices · distributed systems · legacy modernization |
+| **Community** | Apache Software Foundation · Open Source committer & contributor |
 
 <img src="assets/divider.svg" width="100%" alt="" />
 
@@ -70,12 +81,20 @@ Beyond production work, I dedicate my studies to the **Rust** language — explo
 
 <div align="center">
 
+![Profile views](https://komarev.com/ghpvc/?username=daniel-dos&label=PROFILE+VIEWS&color=d4a359&style=flat-square)
+![Followers](https://img.shields.io/github/followers/daniel-dos?label=FOLLOWERS&color=d4a359&style=flat-square&logo=github&logoColor=0c0b09)
+![Stars](https://img.shields.io/github/stars/daniel-dos?label=STARS&color=d4a359&style=flat-square&logo=github&logoColor=0c0b09)
+
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=daniel-dos&show_icons=true&hide_border=true&bg_color=16130f&title_color=d4a359&text_color=f3efe6&icon_color=e06d3b&include_all_commits=true&count_private=true" alt="GitHub stats" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=daniel-dos&layout=compact&hide_border=true&bg_color=16130f&title_color=d4a359&text_color=f3efe6&langs_count=8" alt="Top languages" />
 
 <br />
 
 <img src="https://streak-stats.demolab.com?user=daniel-dos&hide_border=true&background=16130f&border=d4a359&stroke=d4a359&ring=d4a359&fire=e06d3b&currStreakLabel=d4a359&sideLabels=f3efe6&dates=a39a8c" alt="GitHub streak" />
+
+<br />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=daniel-dos&bg_color=16130f&color=a39a8c&title_color=d4a359&line=e06d3b&point=f3efe6&area=true&area_color=d4a359&hide_border=true&custom_title=Contribution%20graph" width="100%" alt="Contribution graph" />
 
 </div>
 

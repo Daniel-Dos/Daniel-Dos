@@ -1,11 +1,8 @@
-
 <div align="center">
 
-# ⚙ Daniel Dias
+<img src="assets/banner.svg" width="100%" alt="Banner: Daniel Dias — Software Engineer, clockwork & distributed systems, with brass gears" />
 
 **Software Engineer — Java · Go · Rust · Distributed Systems · Open Source**
-
-`clockwork // distributed systems`
 
 ![Java](https://img.shields.io/badge/Java-d4a359?style=flat-square&logo=openjdk&logoColor=0c0b09)
 ![Go](https://img.shields.io/badge/Go-d4a359?style=flat-square&logo=go&logoColor=0c0b09)
@@ -13,13 +10,13 @@
 ![Apache TomEE](https://img.shields.io/badge/Apache%20TomEE-d4a359?style=flat-square&logo=apache&logoColor=0c0b09)
 ![Distributed Systems](https://img.shields.io/badge/Distributed%20Systems-d4a359?style=flat-square&logo=linux&logoColor=0c0b09)
 
-[📖 Blog](https://daniel-dos.github.io/danieldias/) · [GitHub](https://github.com/daniel-dos) · [LinkedIn](https://www.linkedin.com/in/danieldiasds)
+[⚙ Blog](https://daniel-dos.github.io/danieldias/) · [GitHub](https://github.com/daniel-dos) · [LinkedIn](https://www.linkedin.com/in/danieldiasds)
 
 <a href="#pt">🇧🇷 Português</a> · <a href="#en">🇺🇸 English</a>
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
 ```rust
 // BRASS CONSOLE · MG-01 · stack.rs
@@ -35,45 +32,41 @@ fn main() {
 // telemetry · gearbox pressure — PWR · TMP 68°C · OIL 96%
 ```
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
 <a id="pt"></a>
 
-## 🇧🇷 Sobre Mim // Engenharia na Prática
+## ⚙ Sobre Mim // Engenharia na Prática
 
 Sou engenheiro de software backend focado em construir, evoluir e modernizar sistemas distribuídos de alta escala. No dia a dia, atuo diretamente no desenvolvimento e na migração de aplicações legadas para microsserviços resilientes, trabalhando com **Java**, **Go** e infraestrutura em nuvem.
 
 Além da rotina de produção, dedico meus estudos à linguagem **Rust** — explorando programação de sistemas, segurança de memória e boas práticas de testes — e participo ativamente da comunidade Open Source como *committer* no **Apache TomEE** e contribuidor nos ecossistemas Jakarta EE e MicroProfile.
 
-### O que você encontra por aqui
+### ⚙ O que você encontra por aqui
 
-| ⚙ | |
-|:--|:--|
-| **Conteúdo técnico do mundo real** | Experiências práticas com Java, Go, Rust e mais — nascidas do trabalho diário desenvolvendo e mantendo sistemas distribuídos. |
-| **Foco em boas práticas** | Arquitetura limpa, código legível, testes automatizados e soluções escaláveis apoiadas em fundamentos sólidos de engenharia. |
-| **Open Source & Comunidade** | Projetos da Apache Software Foundation, sistemas distribuídos e ferramentas que impulsionam o crescimento técnico além de uma única stack. |
+- 🔧 **Conteúdo técnico do mundo real** — experiências práticas com Java, Go, Rust e mais, nascidas do trabalho diário desenvolvendo e mantendo sistemas distribuídos.
+- ⚙️ **Foco em boas práticas** — arquitetura limpa, código legível, testes automatizados e soluções escaláveis apoiadas em fundamentos sólidos de engenharia.
+- 🛠️ **Open Source & Comunidade** — projetos da Apache Software Foundation, sistemas distribuídos e ferramentas que impulsionam o crescimento técnico além de uma única stack.
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
 <a id="en"></a>
 
-## 🇺🇸 About Me // Engineering in Practice
+## ⚙ About Me // Engineering in Practice
 
 I'm a backend software engineer focused on building, evolving and modernizing large-scale distributed systems. Day to day I work hands-on developing and migrating legacy applications into resilient microservices, using **Java**, **Go** and cloud infrastructure.
 
 Beyond production work, I dedicate my studies to the **Rust** language — exploring systems programming, memory safety and testing best practices — and I'm an active Open Source community member as a *committer* on **Apache TomEE** and a contributor to the Jakarta EE and MicroProfile ecosystems.
 
-### What you'll find here
+### ⚙ What you'll find here
 
-| ⚙ | |
-|:--|:--|
-| **Real-world technical content** | Practical experience with Java, Go, Rust and more — born from daily work developing and maintaining distributed systems. |
-| **Focus on best practices** | Clean architecture, readable code, automated tests and scalable solutions backed by solid engineering fundamentals. |
-| **Open Source & community** | Apache Software Foundation projects, distributed systems and tools that drive technical growth beyond a single stack. |
+- 🔧 **Real-world technical content** — practical experience with Java, Go, Rust and more, born from daily work developing and maintaining distributed systems.
+- ⚙️ **Focus on best practices** — clean architecture, readable code, automated tests and scalable solutions backed by solid engineering fundamentals.
+- 🛠️ **Open Source & community** — Apache Software Foundation projects, distributed systems and tools that drive technical growth beyond a single stack.
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
-## 📊 GitHub Stats
+## ⚙ GitHub Stats
 
 <div align="center">
 
@@ -86,11 +79,11 @@ Beyond production work, I dedicate my studies to the **Rust** language — explo
 
 </div>
 
----
+<img src="assets/divider.svg" width="100%" alt="" />
 
 <div align="center">
 
-[Blog](https://daniel-dos.github.io/danieldias/) · [GitHub](https://github.com/daniel-dos) · [LinkedIn](https://www.linkedin.com/in/danieldiasds)
+[⚙ Blog](https://daniel-dos.github.io/danieldias/) · [GitHub](https://github.com/daniel-dos) · [LinkedIn](https://www.linkedin.com/in/danieldiasds)
 
 <a href="#pt">🇧🇷 Português</a> · <a href="#en">🇺🇸 English</a>
 
